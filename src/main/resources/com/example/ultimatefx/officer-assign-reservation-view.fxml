@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="458.0" prefWidth="715.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ultimatefx.controlador.OfficeAssignReservationController">
+   <children>
+      <ListView fx:id="reservationsListView" layoutX="425.0" layoutY="32.0" prefHeight="386.0" prefWidth="245.0" />
+      <Button fx:id="assignationButton" layoutX="54.0" layoutY="143.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="150.0" text="Asignar" />
+      <ComboBox fx:id="trainerDniCombo" layoutX="54.0" layoutY="77.0" prefWidth="150.0" />
+      <Button fx:id="exitButton" layoutX="54.0" layoutY="353.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="87.0" text="SALIR" />
+      <Button fx:id="cancelButton" layoutX="239.0" layoutY="143.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="150.0" text="CANCELAR" />
+      <CheckBox fx:id="confirmCheckBox" layoutX="270.0" layoutY="80.0" mnemonicParsing="false" text="Confirmar" />
+   </children>
+</AnchorPane>

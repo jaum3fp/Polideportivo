@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="393.0" prefWidth="314.0" styleClass="login-background" stylesheets="@css/login-styles.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ultimatefx.controlador.LoginController">
+    <children>
+        <Label layoutX="72.0" layoutY="59.0" prefHeight="48.0" prefWidth="170.0" styleClass="login-title" text="LOGIN" />
+        <TextField fx:id="txtUser" layoutX="72.0" layoutY="152.0" prefHeight="45.0" prefWidth="170.0" promptText="User" styleClass="login-text-field" />
+        <TextField fx:id="txtPassword" layoutX="72.0" layoutY="226.0" prefHeight="45.0" prefWidth="170.0" promptText="Password" styleClass="login-text-field" />
+        <Label fx:id="txtResult" layoutX="42.0" layoutY="346.0" prefHeight="33.0" prefWidth="230.0" textAlignment="CENTER" />
+        <Button fx:id="btnSubmit" layoutX="119.0" layoutY="313.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="76.0" text="Submit" />
+    </children>
+</Pane>
